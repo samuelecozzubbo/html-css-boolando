@@ -80,23 +80,26 @@ header{
     height: auto; /* non essenziale dato che lo fa automaticamente senza scriverlo */
 }
 
+/* Label */
+.label{
+    position: absolute;
+    bottom: 20%;
+    left: 0;
+    z-index: 500;
+}
+
 .discount-label{
     background-color: red;
     color: white;
-    padding: 7px;
-    position: absolute;
-    bottom: 20%;
-    z-index: 500;
+    padding: 5px;
+    display: inline-block;
 }
 
 .sostenibility-label{
     background-color: green;
     color: white;
-    padding: 7px;
-    position: absolute;
-    bottom: 20%;
-    left: 10%;
-    z-index: 500;
+    padding: 5px;
+    display: inline-block;
 }
 
 /* Prezzo */
@@ -112,14 +115,34 @@ header{
 }
 
 /* Effetto hover foto */
-.hover-img:hover{
+.hover-img:hover.first{
     content: url('../img/1b.webp');
+}
+
+.hover-img:hover.second{
+    content: url('../img/2b.webp');
+}
+
+.hover-img:hover.third{
+    content: url('../img/3b.webp');
+}
+
+.hover-img:hover.fourth{
+    content: url('../img/4b.webp');
+}
+
+.hover-img:hover.fiveth{
+    content: url('../img/5b.webp');
+}
+
+.hover-img:hover.sixth{
+    content: url('../img/6b.webp');
 }
 /* Effetto hover heart */
 .heart{
     color: black;
     background-color: white;
-    padding: 5px 10px;
+    padding: 5px 15px;
     margin-top: 5px;
     font-size: 40px;
     position: absolute;
