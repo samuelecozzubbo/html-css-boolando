@@ -114,27 +114,27 @@ header{
     font-weight: bold;
 }
 
-/* Effetto hover foto */
+/* Effetto hover foto 1*/
 .hover-img:hover.first{
     content: url('../img/1b.webp');
 }
-
+/* Foto 2 */
 .hover-img:hover.second{
     content: url('../img/2b.webp');
 }
-
+/* Foto 3 */
 .hover-img:hover.third{
     content: url('../img/3b.webp');
 }
-
+/* Foto 4 */
 .hover-img:hover.fourth{
     content: url('../img/4b.webp');
 }
-
+/* Foto 5 */
 .hover-img:hover.fiveth{
     content: url('../img/5b.webp');
 }
-
+/* Foto 6 */
 .hover-img:hover.sixth{
     content: url('../img/6b.webp');
 }
