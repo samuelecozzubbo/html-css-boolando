@@ -100,6 +100,11 @@ header{
     z-index: 500;
 }
 
+
+/* Effetto hover foto */
+.hover-img:hover{
+    content: url('../img/1b.webp');
+}
 /* Effetto hover heart */
 .heart{
     color: black;
