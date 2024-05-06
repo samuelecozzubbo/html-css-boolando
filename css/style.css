@@ -1,0 +1,54 @@
+/* Regole generali pagina */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* reagole header */
+
+header{
+    background-color: orange;
+    width: 100%;
+    border-bottom: 1px solid gray;
+    box-shadow: 0 0 10px 0 gray;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 600;
+}
+
+#logo{
+    width: 30%;
+    height: auto;
+    color: white;
+}
+
+#main-nav{
+    height: 100px;
+    padding: 0 10%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+
+#main-nav ul{ 
+    list-style-type: none;
+    font-size: 20px;
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
