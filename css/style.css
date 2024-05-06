@@ -17,7 +17,8 @@ a{
 /* reagole header */
 
 header{
-    background-color: orange;
+    background-color: orangered;
+    color: white;
     width: 100%;
     border-bottom: 1px solid gray;
     box-shadow: 0 0 10px 0 gray;
